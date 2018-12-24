@@ -45,5 +45,25 @@ body {
  /* FIN STYLE MENU */
 
 /* STYLE FOOTER */
-
+.block-low {
+    width: 100%;
+    height: 150px;
+    background-color: #3C4247;
+}
+.list-low {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    width: 20%;
+    list-style:none;
+    margin-left: 525px;
+}
+.text-low {
+    text-align: center;
+    color : white;
+    font-family:"Tahoma", Arial, sans-serif;
+    padding-top: 25px;
+}
 /* FIN STYLE FOOTER */
+
