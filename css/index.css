@@ -1,31 +1,32 @@
 /* STYLE INTRO */
 .block-intro {
-    background-image: url("../img/accueil/intro.png");
+  background-image: url("../img/accueil/intro.png");
 }
 /* FIN STYLE INTRO */
 
 /* STYLE SYNOPSIS */
 .block-synopsis {
-    background-color:white;
-    text-align: center;
+  background-color: white;
+  text-align: center;
 }
 .block-synopsis h2 {
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 15px;
-    margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 .block-synopsis p {
-    font-size: 17px;
-    text-align: center;
-    width: 600px;
-    margin: auto;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  width: 750px;
+  margin: auto;
 }
-.block-synopsis .btn-propos{
-    text-align: center;
-    margin-top: 20px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
+.block-synopsis .btn-propos {
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 /* FIN SYNOPSIS */

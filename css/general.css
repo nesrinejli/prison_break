@@ -33,34 +33,39 @@ body {
   font-family: "Roboto-Regular";
   padding-top: 80px;
 }
-p, div, h1,h2,h3,a{
+p,
+div,
+h1,
+h2,
+h3,
+a {
   margin: 0;
   padding: 0;
 }
-button{
+button {
   padding: 0;
 }
-h1{
+h1 {
   font-family: "Roboto-Bold";
 }
-.btn{
+.btn {
   text-align: center;
   background-color: transparent;
   position: relative;
   width: 150px;
   height: 50px;
 }
-.btn.black{
+.btn.black {
   border: 2px solid #1a1a1a;
   transition: 0.5s;
 }
-.btn.black:hover{
+.btn.black:hover {
   background-color: #3c4247;
 }
-.btn.black:hover a{
+.btn.black:hover a {
   color: white;
 }
-.btn a{
+.btn a {
   display: block;
   width: 100%;
   height: 100%;
@@ -73,7 +78,7 @@ h1{
   font-family: "Roboto-Bold";
   font-size: 15px;
 }
-a{
+a {
   text-decoration: none;
   color: #362c2c;
 }
@@ -161,7 +166,7 @@ a{
   height: 420px;
   background-size: cover;
   background-repeat: no-repeat;
-  color:white;
+  color: white;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -169,12 +174,12 @@ a{
   justify-content: flex-end;
 }
 .block-intro h1 {
-    display: block;
-    text-transform: uppercase;
-    font-size: 60px;
-    text-align: center;
-    margin-bottom: 80px;
-  }
+  display: block;
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 80px;
+}
 /* FIN STYLE INTRO */
 
 /* STYLE FOOTER */
@@ -205,5 +210,6 @@ a{
   text-align: center;
   color: white;
   font-size: 14px;
+  margin-bottom: 15px;
 }
 /* FIN STYLE FOOTER */
