@@ -82,6 +82,29 @@ a {
   text-decoration: none;
   color: #362c2c;
 }
+
+.slick-arrow{
+  border: none;
+  outline: none;
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.slick-prev{
+  background-image: url("../img/general/arrow_left.png");
+  left: -70px;
+}
+.slick-next{
+  background-image: url("../img/general/arrow_right.png");
+  right: -70px;
+}
 /* STYLE GENERAL */
 
 /* STYLE MENU */
@@ -185,7 +208,7 @@ a {
 /* STYLE FOOTER */
 .block-low {
   width: 100%;
-  background-color: #3c4247;
+  background-color: #343536;
   height: 110px;
   display: flex;
   flex-direction: column;

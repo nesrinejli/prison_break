@@ -1,117 +1,163 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Accueil | Prison Break</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="css/general.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="css/index.css"
-    />
-    <script src="js/app.js"></script>
-  </head>
 
-  <body>
-    <!-- Header -->
-    <header class="block-menu">
-      <a href="index.html"
-        ><img class="logo-menu" src="img/general/logo.png" alt="logo du menu"
-      /></a>
-      <ul class="list-menu">
-        <li><a class="active" href="index.html">Accueil</a></li>
-        <li><a href="html/casting.html">Casting</a></li>
-        <li><a href="html/aproposde.html">A propos de</a></li>
-        <li class="dropdown">
-          <a href="html/saison1.html">Saisons</a>
-          <div class="dropdown-content">
-            <a href="html/saison1.html">Saison 1</a>
-            <a href="html/saison2.html">Saison 2</a>
-            <a href="html/saison3.html">Saison 3</a
-            ><a href="html/saison4.html">Saison 4</a
-            ><a href="html/saison5.html">Saison 5</a>
-          </div>
-        </li>
-        <li><a href="html/distinctions.html">Distinctions</a></li>
-        <li><a href="html/galerie.html">Galerie</a></li>
-      </ul>
-    </header>
-    <!-- Fin Header -->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Accueil | Prison Break</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/general.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+</head>
 
-    <!-- block-intro -->
-    <div class="block-intro"><h1>La Grande évasion</h1></div>
-    <!-- Fin block-intro -->
-
-    <!-- block-synopsis -->
-    <div class="block-synopsis">
-      <h2>Synopsis</h2>
-      <p>
-        Michael Scofield s'engage dans une véritable lutte contre la montre :
-        son frère Lincoln est dans le couloir de la mort, en attente de son
-        exécution. Persuadé de son innocence mais à court de solutions, Michael
-        décide de se faire incarcérer à son tour dans le pénitencier d'état de
-        Fox River pour organiser leur évasion...
-      </p>
-
-      <button class="btn black btn-propos" type="button">
-        <a href="html/aproposde.html">A propos de</a>
-      </button>
-    </div>
-
-    <!-- FIN block-synopsis -->
-
-   <!-- block-freres -->
-   <div class="block-freres">
-      <div class="block-bro block-one">  
-        <div class="img-bro"></div>
-        <div class="block-text"> 
-          <h2>Deux frères,une histoire incroyable</h2>
-          <p>
-            À cause d'une sombre machination, Lincoln Burrows, un petit truand, est accusé à tort d'avoir tué le frère 
-            de la vice-présidente des États-Unis. Condamné à mort, il est incarcéré dans le pénitencier d'État de Fox River,
-            dans l'attente de son exécution. Son frère, Michael Scofield est convaincu de son 
-            innocence et va l'aider à s'évader avant la date fatidique. 
-          </p>
+<body>
+  <!-- Header -->
+  <header class="block-menu">
+    <a href="index.html"><img class="logo-menu" src="img/general/logo.png" alt="logo du menu" /></a>
+    <ul class="list-menu">
+      <li><a class="active" href="index.html">Accueil</a></li>
+      <li><a href="html/casting.html">Casting</a></li>
+      <li><a href="html/aproposde.html">A propos de</a></li>
+      <li class="dropdown">
+        <a href="html/saison1.html">Saisons</a>
+        <div class="dropdown-content">
+          <a href="html/saison1.html">Saison 1</a>
+          <a href="html/saison2.html">Saison 2</a>
+          <a href="html/saison3.html">Saison 3</a>
+          <a href="html/saison4.html">Saison 4</a>
+          <a href="html/saison5.html">Saison5</a>
         </div>
-      </div>
-      <div class="block-bro block-two">  
-        <div class="block-text">
-          <h2>Une course poursuite dans tous le continent</h2>
-          <p>
-              Michael Scofield conçoit un plan ingénieux profitant d’être l'auteur des plans initiaux du pénitencier pour sortir de prison,
-              et se fait tatouer les plans de celle-ci sur le torse, le dos et les bras, ainsi que diverses
-                informations utiles à l'évasion et à la cavale, puis commet un braquage afin d'y être incarcéré à son tour.
-              Une fois emprisonné à Fox River, Michael met en marche son plan afin de rendre la liberté à son frère.
-          </p>
-        </div>
-        <div class="img-bro"></div>
+      </li>
+      <li><a href="html/distinctions.html">Distinctions</a></li>
+      <li><a href="html/galerie.html">Galerie</a></li>
+    </ul>
+  </header>
+  <!-- Fin Header -->
+
+  <!-- block-intro -->
+  <div class="block-intro">
+    <h1>La Grande évasion</h1>
+  </div>
+  <!-- Fin block-intro -->
+
+  <!-- block-synopsis -->
+  <div class="block-synopsis">
+    <h2>Synopsis</h2>
+    <p>
+      Michael Scofield s'engage dans une véritable lutte contre la montre :
+      son frère Lincoln est dans le couloir de la mort, en attente de son
+      exécution. Persuadé de son innocence mais à court de solutions, Michael
+      décide de se faire incarcérer à son tour dans le pénitencier d'état de
+      Fox River pour organiser leur évasion...
+    </p>
+
+    <button class="btn black btn-propos" type="button">
+      <a href="html/aproposde.html">A propos de</a>
+    </button>
+  </div>
+
+  <!-- FIN block-synopsis -->
+
+  <!-- block-freres -->
+  <div class="block-freres">
+    <div class="block-bro block-one">
+      <div class="img-bro"></div>
+      <div class="block-text">
+        <h2>Deux frères,une histoire incroyable</h2>
+        <p>
+          À cause d'une sombre machination, Lincoln Burrows, un petit truand,
+          est accusé à tort d'avoir tué le frère de la vice-présidente des
+          États-Unis. Condamné à mort, il est incarcéré dans le pénitencier
+          d'État de Fox River, dans l'attente de son exécution. Son frère,
+          Michael Scofield est convaincu de son innocence et va l'aider à
+          s'évader avant la date fatidique.
+        </p>
       </div>
     </div>
-    <!-- FIN block-freres -->
-
-    <!-- Footer -->
-    <footer class="block-low">
-      <div class="list-low">
-        <a href="https://fr-fr.facebook.com/PrisonBreak/"
-          ><img src="img/general/facebook.png" alt="Facebook"
-        /></a>
-        <a href="https://twitter.com/prisonbreak"
-          ><img src="img/general/twitter.png" alt="Twitter"
-        /></a>
-        <a href="https://www.instagram.com/prisonbreak/?hl=fr"
-          ><img src="img/general/instagram.png" alt="Instagram"
-        /></a>
+    <div class="block-bro block-two">
+      <div class="block-text">
+        <h2>Une course poursuite dans tous le continent</h2>
+        <p>
+          Michael Scofield conçoit un plan ingénieux profitant d’être l'auteur
+          des plans initiaux du pénitencier pour sortir de prison, et se fait
+          tatouer les plans de celle-ci sur le torse, le dos et les bras,
+          ainsi que diverses informations utiles à l'évasion et à la cavale,
+          puis commet un braquage afin d'y être incarcéré à son tour. Une fois
+          emprisonné à Fox River, Michael met en marche son plan afin de
+          rendre la liberté à son frère.
+        </p>
       </div>
-      <p class="text-low">© Copyright 2019 Nesrine Jouili</p>
-    </footer>
-    <!-- Fin Footer -->
-  </body>
+      <div class="img-bro"></div>
+    </div>
+  </div>
+  <!-- FIN block-freres -->
+
+  <!-- Block Avis -->
+  <div class="block-avis">
+    <h2>Avis des spéctateurs (Allociné)</h2>
+    <div class="container-avis">
+      <div class="avis">
+        <div class="text-avis">
+          Tout simplement culte. Le suspens est intenable, la fin de chaques
+          épidoses est un supplice. Les acteurs sont au sommet de leur forme.
+          Le scénario est une merveille d'inventivité et d'originalité, créant
+          une véritable addiction. Cette série est tout simplement
+          immanquable!
+        </div>
+        <div class="note">Note : 5/5</div>
+        <div class="auteur">Loskof</div>
+      </div>
+      <div class="avis">
+        <div class="text-avis">
+          Une série passionnante avec une intrigue qui ne s'épuise jamais.
+          Toujours du suspens et des rebondissements magnifiques.
+          De l'action des acteurs excellents.
+          Chaque épisode vous tient en haleine du début à la fin.
+        </div>
+        <div class="note">Note : 4/5</div>
+        <div class="auteur">Shelby</div>
+      </div>
+      <div class="avis">
+        <div class="text-avis">
+          Cette dernière de PrisonBreak serait plus meilleure
+          et fantastique les autres. Je confirme Prison Break
+          meilleure série de tous les temps.
+        </div>
+        <div class="note">Note : 5/5</div>
+        <div class="auteur">Dougray</div>
+      </div>
+      <div class="avis">
+        <div class="text-avis">
+          Prison Break est une série culte. La première saison reste de loin
+          la meilleure, la plus originale et la plus prenante de toute la série.
+          On a ici une très bonne série qui nous propose une histoire originale,
+          parfaitement bien ficelée
+        </div>
+        <div class="note">Note : 4.5/5</div>
+        <div class="auteur">Alexis D</div>
+      </div>
+    </div>
+  </div>
+  <!-- Block Avis -->
+
+  <!-- Footer -->
+  <footer class="block-low">
+    <div class="list-low">
+      <a href="https://fr-fr.facebook.com/PrisonBreak/"><img src="img/general/facebook.png" alt="Facebook" /></a>
+      <a href="https://twitter.com/prisonbreak"><img src="img/general/twitter.png" alt="Twitter" /></a>
+      <a href="https://www.instagram.com/prisonbreak/?hl=fr"><img src="img/general/instagram.png" alt="Instagram" /></a>
+    </div>
+    <p class="text-low">© Copyright 2019 Nesrine Jouili</p>
+  </footer>
+  <!-- Fin Footer -->
+
+  <!-- Script Javascript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/app.js"></script>
+  <!-- Fin Script Javascript -->
+</body>
+
 </html>

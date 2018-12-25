@@ -33,20 +33,20 @@
 
 /* STYLE FRERES */
 .block-freres {
-    background-color:#EFEFEF;
-    padding-top:30px;
-    padding-bottom:30px;
+  background-color: #efefef;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .block-freres .block-bro {
-    background-color: white;
-    width:90%;
-    height: 260px;
-    margin:auto;
-    display: flex;
-    align-items: center;
+  background-color: white;
+  width: 80%;
+  height: 260px;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
 .block-freres .block-two {
-  margin-top:30px;
+  margin-top: 30px;
 }
 .block-freres .block-text {
   width: 50%;
@@ -57,18 +57,54 @@
   margin-top: 15px;
   line-height: 28px;
 }
-.block-freres .block-bro .img-bro{
-  width:500px;
+.block-freres .block-bro .img-bro {
+  width: 500px;
   height: 100%;
   min-height: 100px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .block-freres .block-one .img-bro {
-  background-image: url("../img/accueil/accueil_frere.png")
+  background-image: url("../img/accueil/accueil_frere.png");
 }
 .block-freres .block-two .img-bro {
-  background-image: url("../img/accueil/accueil_courrir.png")
+  background-image: url("../img/accueil/accueil_courrir.png");
 }
 
 /* FIN FRERES */
+
+/* BLOCK AVIS */
+.block-avis {
+  color: white;
+  text-align: center;
+  background-color: #acacac;
+  padding: 25px 0px 25px 0px;
+}
+.block-avis h2 {
+  font-size: 30px;
+}
+.block-avis .container-avis {
+  width: 500px;
+  height: 170px;
+  margin: auto;
+  margin-top: 15px;
+}
+.block-avis .container-avis .avis {
+  width: 100%;
+  height: 100%;
+}
+.block-avis .container-avis .avis .text-avis {
+  font-size: 16px;
+  line-height: 25px;
+}
+.block-avis .container-avis .avis .note {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.block-avis .container-avis .avis .auteur {
+  font-size: 20px;
+  font-family: "Roboto-Bold";
+  margin-top: 5px;
+  text-decoration: underline;
+}
+/* FIN BLOCK AVIS */
