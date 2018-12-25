@@ -30,3 +30,27 @@
 }
 
 /* FIN SYNOPSIS */
+
+/* STYLE FRERES */
+.block-freres {
+    background-color:grey;
+}
+
+.block-freres img {
+    width: 500px;
+}
+.block-freres h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.block-freres p{
+    font-size: 17px;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+
+/* FIN FRERES */
