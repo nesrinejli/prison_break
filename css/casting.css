@@ -3,3 +3,52 @@
     background-image: url("../img/accueil/intro.png");
 }
 /* FIN STYLE INTRO */
+
+/* STYLE PROTA */
+.block-prota {
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:#efefef;
+}
+.block-prota .content {
+   background-color: white;
+   width: 90%;
+   margin: auto;
+   padding-top: 30px;
+}
+.block-prota .titre-block {
+}
+.block-prota .container-perso {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+.block-prota .container-perso .block-perso {
+    margin-left: 20px;
+    position: relative;
+    border: 2px solid #1a1a1a;
+    margin-bottom: 30px;
+}
+/* Exception */
+.block-prota .container-perso .block-perso:nth-child(1) {
+    margin-left: 0px;
+}
+.block-prota .container-perso .block-perso .img-perso {
+    width: 250px;
+}
+.block-prota .container-perso .block-perso .block-info {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+}
+.block-prota .container-perso .block-perso .block-info .role-perso{
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* FIN STYLE PROTA */
