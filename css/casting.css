@@ -47,7 +47,7 @@
     justify-content: center;
     overflow: hidden;
     flex-wrap: wrap;
-    width: 70%;
+    width: 1090px;
     margin: auto;
     margin-top: 60px;
 }
@@ -89,3 +89,16 @@
 }
 
 /* FIN STYLE PROTA */
+
+/* STYLE HISTOIRE */
+.block-prota .content .titre-block {
+
+}
+.block-prota .content .text-histoire {
+    margin: auto;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    width: 90%;
+    text-align:justify;
+}
+/* FIN STYLE HISTOIRE */
