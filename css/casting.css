@@ -44,9 +44,12 @@
 .block-prota .container-perso {
     display: flex;
     align-items: center;
-    margin-top: 60px;
     justify-content: center;
     overflow: hidden;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
 }
 .block-prota .container-perso .block-perso {
     margin-left: 20px;
@@ -60,7 +63,7 @@
     bottom: -500px;
 }
 /* Exception */
-.block-prota .container-perso .block-perso:nth-child(1) {
+.block-prota .container-perso .block-perso:nth-child(4n+1) {
     margin-left: 0px;
 }
 /* Fin Exception */
