@@ -44,6 +44,7 @@
   margin: auto;
   display: flex;
   align-items: center;
+  box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.30);
 }
 .block-freres .block-two {
   margin-top: 30px;
