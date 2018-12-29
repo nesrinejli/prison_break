@@ -1,6 +1,18 @@
 /* STYLE INTRO */
-.block-intro {
-    background-image: url("../img/accueil/intro.png");
+.block-intro.s1{
+    background-image: url("../img/saison/saison1/intro.png");
+}
+.block-intro.s2{
+    background-image: url("../img/saison/saison2/intro.png");
+}
+.block-intro.s3{
+    background-image: url("../img/saison/saison3/intro.png");
+}
+.block-intro.s4{
+    background-image: url("../img/saison/saison4/intro.png");
+}
+.block-intro.s5{
+    background-image: url("../img/saison/saison5/intro.png");
 }
 /* FIN STYLE INTRO */
 
@@ -54,7 +66,6 @@
 /* FIN STYLE SAISON */
 /* STYLE FOND */
 .block-fond{
-    background-image: url("../img/apropos/aproposfond.png");
     width: 100%;
     height: 300px;
     background-repeat: no-repeat;
@@ -62,6 +73,22 @@
     background-attachment: fixed;
     background-position: top center;
 }
+.block-fond.s1{
+    background-image: url("../img/saison/saison1/fond.png");
+}
+.block-fond.s2{
+    background-image: url("../img/saison/saison2/fond.png");
+}
+.block-fond.s3{
+    background-image: url("../img/saison/saison3/fond.png");
+}
+.block-fond.s4{
+    background-image: url("../img/saison/saison4/fond.png");
+}
+.block-fond.s5{
+    background-image: url("../img/saison/saison5/fond.png");
+}
+
 /* FIN STYLE FOND */
 
 .block-prota .video{
