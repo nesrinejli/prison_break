@@ -38,7 +38,7 @@
     font-family: "Roboto-Bold";
     font-size: 30px;
     position: relative;
-    max-width: 380px;
+    max-width: 390px;
     margin: auto;
 }
 .block-prota .titre-block::after {
@@ -64,6 +64,7 @@
     text-align:justify;
 }
 /* FIN STYLE SAISON */
+
 /* STYLE FOND */
 
 .block-fond.s1{
@@ -87,4 +88,15 @@
 .block-prota .video{
     margin-top: 60px;
     margin-bottom: 30px;
+}
+.block-prota .slider-saison {
+    overflow: hidden;
+    width: 920px;
+    margin: auto;
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+.block-prota .slider-saison img{
+    max-width: 100%;
+    height: 500px;
 }

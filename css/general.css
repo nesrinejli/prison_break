@@ -124,7 +124,7 @@ a {
 .block-menu {
   width: 100%;
   height: 80px;
-  background-color: #3c4247;
+  background-color: #283236;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -208,6 +208,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  background-position: center;
 }
 .block-intro h1 {
   display: block;
@@ -237,7 +238,7 @@ a {
 /* STYLE FOOTER */
 .block-low {
   width: 100%;
-  background-color: #343536;
+  background-color: #0E0F0F;
   height: 110px;
   display: flex;
   flex-direction: column;

@@ -5,6 +5,13 @@
    });
    //Fin Carousel Avis Accueil
 
+   //Carousel Saison Img
+   $('.slider-saison').slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+   });
+   //Fin Carousel Saison Img
+
    //Animation page d'accueil
    var y = $(this).scrollTop();
    console.log(y)
