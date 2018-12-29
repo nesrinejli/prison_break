@@ -106,6 +106,9 @@ a {
   background-image: url("../img/general/arrow_right.png");
   right: -70px;
 }
+.slick-slide{
+  outline: none;
+}
 /* STYLE GENERAL */
 
 /* STYLE MENU */
@@ -203,6 +206,22 @@ a {
   font-size: 60px;
   text-align: center;
   margin-bottom: 80px;
+  position: relative;
+}
+.block-intro h1::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  bottom: -20px;
+  background-color: white;
+  height: 2px;
+  left: 0;
+  right: 0;
+  transform: scale(0);
+  transition: 1s;
+}
+.block-intro h1.anim::after {
+  transform: scale(1);
 }
 /* FIN STYLE INTRO */
 
