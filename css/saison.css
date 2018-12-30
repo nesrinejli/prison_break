@@ -99,10 +99,13 @@
     flex-wrap: wrap;
     
 }
-.block-prota .slider-saison img{
+.block-prota .slider-saison a{
     width: 32%;
     margin-left: 20px;
     margin-top: 20px;
+}
+.block-prota .slider-saison a img{
+    max-width: 100%;
 }
 .block-prota .slider-saison img:nth-child(3n+1){
     margin-left: 0;

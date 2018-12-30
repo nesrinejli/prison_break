@@ -7,7 +7,6 @@
 
    //Animation page d'accueil
    var y = $(this).scrollTop();
-   console.log(y)
    if (y < 420) {
       $('.block-intro h1, .block-synopsis').each(function(i) {
          var $li = $(this);
@@ -26,7 +25,6 @@
    }
    $(document).scroll(function() {
       var y = $(this).scrollTop();
-      console.log(y)
       if (y > 200) {
          setInterval(function() { $('.block-freres .block-one').addClass('anim') }, 0);
          setInterval(function() { $('.block-intro h1, .block-synopsis').addClass('anim') }, 0);
