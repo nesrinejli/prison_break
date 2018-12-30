@@ -51,6 +51,26 @@
     width: 90%;
     text-align:justify;
 }
+.block-prota .block-recompenses {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom:10px;
+    display: flex;
+    padding-bottom: 20px;
+}
+.block-prota .block-recompenses .recompenses {
+    margin-top:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.block-prota .block-recompenses .titre-recompenses {
+    font-size: 20px;
+}
+.block-prota .block-recompenses .text-recompenses {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 .block-fond{
     background-image: url("../img/recompenses/fond.png");
 }
