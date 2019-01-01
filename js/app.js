@@ -44,4 +44,5 @@
       }, i * 500); // delay 500 ms
    });
    //Fin Animation Block perso casting
+  
 })(jQuery);

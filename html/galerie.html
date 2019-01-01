@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Galerie | Prison Break</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link type="text/css" rel="stylesheet" href="../css/lightgallery/lightgallery.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="../css/general.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="../css/galerie.css" />
   <link data-react-helmet="true" rel="shortcut icon" href="https://static-media.fox.com/foxnow/web/favicon.ico">
@@ -35,9 +36,47 @@
 
   <!-- block-intro -->
   <div class="block-intro">
-    <h1>La Grande évasion</h1>
+    <h1>Galerie d'images</h1>
   </div>
   <!-- Fin block-intro -->
+
+  <!-- block-image -->
+  <div class="block-prota">
+    <div class="galerie-img" id="aniimated-thumbnials">
+      <a href="../img/saison/saison1/abruzi_prison.png"><img src="../img/saison/saison1/abruzi_prison_mini.png" alt="abruzi_prison">
+        <div class="demo-gallery-poster">
+          <img class="loupe" src="../img/galerie/zoom.png">
+        </div>
+      </a>
+      <a href="../img/saison/saison1/ms-prison1.png"><img src="../img/saison/saison1/ms-prison1_mini.png" alt="abruzi_prison">
+        <div class="demo-gallery-poster">
+          <img class="loupe" src="../img/galerie/zoom.png">
+        </div>
+      </a>
+      <a href="../img/saison/saison1/prison_bleu.png"><img src="../img/saison/saison1/prison_bleu_mini.png" alt="abruzi_prison">
+        <div class="demo-gallery-poster">
+          <img class="loupe" src="../img/galerie/zoom.png">
+        </div>
+      </a>
+      <a href="../img/saison/saison1/sucre_ms1.png"><img src="../img/saison/saison1/sucre_ms1_mini.png" alt="abruzi_prison">
+        <div class="demo-gallery-poster">
+          <img class="loupe" src="../img/galerie/zoom.png">
+        </div>
+      </a>
+      <a href="../img/saison/saison1/groupe1.png"><img src="../img/saison/saison1/groupe1_mini.png" alt="abruzi_prison">
+        <div class="demo-gallery-poster">
+          <img class="loupe" src="../img/galerie/zoom.png">
+        </div>
+      </a>
+      <a href="../img/saison/saison1/sarah.png"><img src="../img/saison/saison1/sarah_mini.png" alt="abruzi_prison">
+        <div class="demo-gallery-poster">
+          <img class="loupe" src="../img/galerie/zoom.png">
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- Fin block-image -->
+
   <!-- Footer -->
   <footer class="block-low">
     <div class="list-low">
@@ -48,6 +87,23 @@
     <p class="text-low">© Copyright 2019 Nesrine Jouili</p>
   </footer>
   <!-- Fin Footer -->
+  <!-- Script Javascript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="../js/lightgallery.js"></script>
+  <script src="../js/app.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#aniimated-thumbnials').lightGallery({
+        thumbnail: true,
+        animateThumb: true,
+        showThumbByDefault: true
+      });
+    });
+  </script>
+  <script src="../js/lg-thumbnail.min.js"></script>
+  <!-- Fin Script Javascript -->
 </body>
 
 </html>

@@ -1,0 +1,67 @@
+/* STYLE INTRO */
+.block-intro {
+    background-image: url("../img/galerie/intro.png");
+}
+/* FIN STYLE INTRO */
+
+.block-prota .galerie-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:10px;
+    margin-bottom: 30px;
+}
+.block-prota .galerie-img a{
+    width: 520px;
+    height: 295px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.block-prota .galerie-img a:nth-child(3n+1){
+    margin-left: 0;
+}
+.block-prota .galerie-img img{
+    -webkit-transition: -webkit-transform 0.15s ease 0s;
+    -moz-transition: -moz-transform 0.15s ease 0s;
+    -o-transition: -o-transform 0.15s ease 0s;
+    transition: transform 0.15s ease 0s;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    height: 100%;
+    width: 100%;
+}
+.block-prota .galerie-img a:hover img{
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+.block-prota .galerie-img a .demo-gallery-poster{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    transition: transform 0.5s ease 0s;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.block-prota .galerie-img a:hover .demo-gallery-poster{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.block-prota .galerie-img a .demo-gallery-poster .loupe{
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    transition: 0.15s;
+}
+.block-prota .galerie-img a:hover .demo-gallery-poster .loupe{
+    opacity: 1;
+}
