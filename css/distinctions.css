@@ -70,9 +70,16 @@
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 0.5s;
+    -webkit-transition: -webkit-transform 0.15s ease 0s;
+    -moz-transition: -moz-transform 0.15s ease 0s;
+    -o-transition: -o-transform 0.15s ease 0s;
+    transition: transform 0.15s ease 0s;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
 }
 .block-prota .block-recompenses .recompenses:hover {
-    transform: scale(1.02);
+    -webkit-transform: scale3d(1.02, 1.02, 1.02);
+    transform: scale3d(1.02, 1.02, 1.02);
 }
 .block-prota .block-recompenses .recompenses:nth-child(3n+1){
     margin-left: 0;

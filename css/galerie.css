@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top:10px;
+    margin-top:20px;
     margin-bottom: 30px;
 }
 .block-prota .galerie-img a{
@@ -18,12 +18,9 @@
     display: inline-block;
     overflow: hidden;
     position: relative;
-    margin-left: 20px;
-    margin-top: 20px;
+    border: 5px solid black;
 }
-.block-prota .galerie-img a:nth-child(3n+1){
-    margin-left: 0;
-}
+
 .block-prota .galerie-img img{
     -webkit-transition: -webkit-transform 0.15s ease 0s;
     -moz-transition: -moz-transform 0.15s ease 0s;
